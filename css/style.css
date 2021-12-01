@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: black;
+}
+
+.container h1{
+    color: white;
+}
+.List{
+    display: flex;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.List li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+}
+
+.burger i{
+    color: white;
+    font-size: 20px;
+}
+
+.burger{
+    display: none;
+}
+
+@media screen and (max-width:1013px) {
+    .List{
+        display: none;
+    }
+    .container input{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+}
+
+.banner{
+    background: url('https://d1tm14lrsghf7q.cloudfront.net/public/media/725/61411_00title_bean_buro_beautysaur_organics_1.jpg') center / cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.homeText{
+    font-size: 150px;
+    color: palevioletred;
+    text-shadow: 0 0 5px gold;
+    padding-top: 280px;
+    text-align: center;
+    margin: 0;
+}
+
+.card_banner{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: url('https://wallpaperaccess.com/full/3073732.jpg') center / cover;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    margin: 0 41%;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.form input{
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    outline: none;
+}
+
+.form button{
+    margin-top: 10px;
+    padding: 8px 77px ;
+    background-color: green;
+    border: none;
+}
+
+@media screen  and (max-width:1226px){
+    .form{
+        border: none;
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    margin-top: 20px;
+    padding: 0 5%;
+    flex-wrap: wrap;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
